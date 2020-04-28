@@ -1,0 +1,306 @@
+[
+  {
+    "text": "hola",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "bot_challenge",
+      "confidence": 0.1868957132101059
+    }
+  },
+  {
+    "text": "buenos dias",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.20368723571300507
+    }
+  },
+  {
+    "text": "buenas tardes",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.48384368419647217
+    }
+  },
+  {
+    "text": "que onda prro",
+    "intent": "greet",
+    "intent_prediction": {
+      "name": "bot_challenge",
+      "confidence": 0.24153777956962585
+    }
+  },
+  {
+    "text": "adios",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.3230213224887848
+    }
+  },
+  {
+    "text": "hasta luego",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "bot_challenge",
+      "confidence": 0.23627260327339172
+    }
+  },
+  {
+    "text": "nos vemos",
+    "intent": "goodbye",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.30782225728034973
+    }
+  },
+  {
+    "text": "si",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.1921503245830536
+    }
+  },
+  {
+    "text": "claro que si",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.2789923846721649
+    }
+  },
+  {
+    "text": "claro",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.17163796722888947
+    }
+  },
+  {
+    "text": "eso suena bien",
+    "intent": "affirm",
+    "intent_prediction": {
+      "name": "bot_challenge",
+      "confidence": 0.1740388423204422
+    }
+  },
+  {
+    "text": "muy bien",
+    "intent": "mood_great",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.17968136072158813
+    }
+  },
+  {
+    "text": "genial",
+    "intent": "mood_great",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.20911023020744324
+    }
+  },
+  {
+    "text": "maravilloso",
+    "intent": "mood_great",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.2057207226753235
+    }
+  },
+  {
+    "text": "me siento muy bien",
+    "intent": "mood_great",
+    "intent_prediction": {
+      "name": "bot_challenge",
+      "confidence": 0.21102681756019592
+    }
+  },
+  {
+    "text": "estoy genial",
+    "intent": "mood_great",
+    "intent_prediction": {
+      "name": "greet",
+      "confidence": 0.17959533631801605
+    }
+  },
+  {
+    "text": "estoy bien",
+    "intent": "mood_great",
+    "intent_prediction": {
+      "name": "bot_challenge",
+      "confidence": 0.16807681322097778
+    }
+  },
+  {
+    "text": "muy triste",
+    "intent": "mood_unhappy",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.1603240966796875
+    }
+  },
+  {
+    "text": "infeliz",
+    "intent": "mood_unhappy",
+    "intent_prediction": {
+      "name": "mood_great",
+      "confidence": 0.26549991965293884
+    }
+  },
+  {
+    "text": "mal",
+    "intent": "mood_unhappy",
+    "intent_prediction": {
+      "name": "mood_great",
+      "confidence": 0.21295806765556335
+    }
+  },
+  {
+    "text": "muy mal",
+    "intent": "mood_unhappy",
+    "intent_prediction": {
+      "name": "mood_great",
+      "confidence": 0.27314993739128113
+    }
+  },
+  {
+    "text": "no muy bien",
+    "intent": "mood_unhappy",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.9607828855514526
+    }
+  },
+  {
+    "text": "tan triste",
+    "intent": "mood_unhappy",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.2280723750591278
+    }
+  },
+  {
+    "text": "estoy hablando con un humano?",
+    "intent": "bot_challenge",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.4061601459980011
+    }
+  },
+  {
+    "text": "cual es la definicion de RNA?",
+    "intent": "redes_neuronales_artificiales_deficicion",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.2702651917934418
+    }
+  },
+  {
+    "text": "cual es la definicion de redes neuronales artificuales?",
+    "intent": "redes_neuronales_artificiales_deficicion",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.8632494211196899
+    }
+  },
+  {
+    "text": "definicion de RNA",
+    "intent": "redes_neuronales_artificiales_deficicion",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.3687518239021301
+    }
+  },
+  {
+    "text": "definicion de redes neuronales artificiales",
+    "intent": "redes_neuronales_artificiales_deficicion",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.8411921858787537
+    }
+  },
+  {
+    "text": "definicion de AAN",
+    "intent": "redes_neuronales_artificiales_deficicion",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.347782701253891
+    }
+  },
+  {
+    "text": "definicion Artificial neural networks",
+    "intent": "redes_neuronales_artificiales_deficicion",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.8747291564941406
+    }
+  },
+  {
+    "text": "paradigmas de las redes neuronales artificiales",
+    "intent": "redes_neuronales_artificiales_paradigmas",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.8525710701942444
+    }
+  },
+  {
+    "text": "paradigmas de RNA",
+    "intent": "redes_neuronales_artificiales_paradigmas",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.26159605383872986
+    }
+  },
+  {
+    "text": "paradigmas de AAN",
+    "intent": "redes_neuronales_artificiales_paradigmas",
+    "intent_prediction": {
+      "name": "mood_unhappy",
+      "confidence": 0.2461777776479721
+    }
+  },
+  {
+    "text": "paradigmas Artificial neural networks",
+    "intent": "redes_neuronales_artificiales_paradigmas",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.3635432720184326
+    }
+  },
+  {
+    "text": "problemas que resuelve las redes neuronales artificiales",
+    "intent": "redes_neuronales_artificiales_problemas",
+    "intent_prediction": {
+      "name": "affirm",
+      "confidence": 0.8816819190979004
+    }
+  },
+  {
+    "text": "problemas que resuelve las RNA",
+    "intent": "redes_neuronales_artificiales_problemas",
+    "intent_prediction": {
+      "name": "goodbye",
+      "confidence": 0.20630943775177002
+    }
+  },
+  {
+    "text": "problemas que resuelve las AAN",
+    "intent": "redes_neuronales_artificiales_problemas",
+    "intent_prediction": {
+      "name": "bot_challenge",
+      "confidence": 0.21807913482189178
+    }
+  },
+  {
+    "text": "problemas que resuelve las Artificial neural networks",
+    "intent": "redes_neuronales_artificiales_problemas",
+    "intent_prediction": {
+      "name": "deny",
+      "confidence": 0.38892000913619995
+    }
+  }
+]

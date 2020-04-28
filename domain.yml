@@ -6,6 +6,12 @@ intents:
   - mood_great
   - mood_unhappy
   - bot_challenge
+  - aprendizaje_supervisado_definicion
+  - aprendizaje_no_supervizado_definicion
+  - aprendizaje_por_refuerzo_definicion
+  - redes_neuronales_artificiales_definicion
+  - redes_neuronales_artificiales_paradigmas
+  - redes_neuronales_artificiales_problemas
 
 responses:
   utter_greet:
@@ -27,6 +33,38 @@ responses:
   utter_iamabot:
   - text: "Soy un bot."
 
+  utter_redes_neuronales_artificiales_definicion:
+  - text: "son un modelo computacional vagamente inspirado en el comportamiento observado en su homólogo biológico"
+
+  utter_aprendizaje_supervisado_definicion:
+  - text: "deseamos inferir el mapeo derivado de los datos; la función de coste está relacionado con la falta de 
+            coincidencia entre nuestro mapeo y los datos, y contiene implícitamente el conocimiento previo sobre 
+            el dominio del problema"
+
+  utter_aprendizaje_no_supervizado_definicion:
+  - text: "En el aprendizaje no supervisado, algunos datos x se da y la función de coste que se reduce al 
+            mínimo, que puede ser cualquier función de los datos x y la salida de la red, f."
+
+  utter_aprendizaje_por_refuerzo_definicion:
+  - text: "El objetivo es descubrir una política para la selección de las acciones que minimiza una cierta 
+            medida de un costo a largo plazo"
+
+  utter_redes_neuronales_artificiales_paradigmas:
+  - text: "Hay tres grandes paradigmas de aprendizaje, cada uno correspondiente a una tarea de aprendizaje 
+            abstracto en particular. Estos son el aprendizaje supervisado ,el aprendizaje no supervisado y 
+            el aprendizaje por refuerzo."
+    buttons:
+    - title: "Aprendizaje supervisado"
+      payload: '/aprendizaje_supervisado_definicion'
+    - title: "Aprendizaje no supervisado"
+      payload: '/aprendizaje_no_supervizado_definicion'
+    - title: "Aprendizaje por refuerzo"
+      payload: '/aprendizaje_por_refuerzo_definicion'
+
+  utter_redes_neuronales_artificiales_problemas:
+  - text: "Las redes neuronales se han utilizado para resolver una amplia variedad de tareas, como la 
+            visión por computador y el reconocimiento de voz"
+      
 session_config:
   session_expiration_time: 60
   carry_over_slots_to_new_session: true

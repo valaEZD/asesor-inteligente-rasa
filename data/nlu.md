@@ -53,3 +53,35 @@
 - eres un humano?
 - estoy hablando con un bot?
 - estoy hablando con un humano?
+
+## intent:redes_neuronales_artificiales_definicion
+- cual es la definicion de RNA?
+- cual es la definicion de redes neuronales artificuales?
+- definicion de RNA
+- definicion de redes neuronales artificiales
+- definicion de AAN
+- definicion Artificial neural networks
+
+## intent:redes_neuronales_artificiales_paradigmas
+- paradigmas de las redes neuronales artificiales
+- paradigmas de RNA
+- paradigmas de AAN
+- paradigmas Artificial neural networks
+
+## intent:redes_neuronales_artificiales_problemas
+- problemas que resuelve las redes neuronales artificiales
+- problemas que resuelve las RNA
+- problemas que resuelve las AAN
+- problemas que resuelve las Artificial neural networks
+
+## intent:aprendizaje_supervisado_definicion
+- que es el aprendizaje supervisado?
+- aprendizaje supervizado
+
+## intent:aprendizaje_no_supervizado_definicion
+- que es el aprendizaje no supervisado?
+- aprendizaje no supervizado
+
+## intent:aprendizaje_por_refuerzo_definicion
+- que es el aprendizaje por refuerzo?
+- aprendizaje por refuerzo
