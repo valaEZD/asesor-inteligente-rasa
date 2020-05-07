@@ -26,9 +26,9 @@
 * goodbye
   - utter_goodbye
 
-## bot challenge
-* bot_challenge
-  - utter_iamabot
+## bot asesor
+* bot_asesor
+  - utter_soy_asesor
 
 ## redes neuronales artificiales definicion
 * redes_neuronales_artificiales_definicion

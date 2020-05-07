@@ -5,7 +5,7 @@ intents:
   - deny
   - mood_great
   - mood_unhappy
-  - bot_challenge
+  - bot_asesor
   - aprendizaje_supervisado_definicion
   - aprendizaje_no_supervizado_definicion
   - aprendizaje_por_refuerzo_definicion
@@ -30,8 +30,8 @@ responses:
   utter_goodbye:
   - text: "Adiós."
 
-  utter_iamabot:
-  - text: "Soy un bot."
+  utter_soy_asesor:
+  - text: "Soy un asesor que te apoyará a guiarte para obtener las respuestas de tus dudas."
 
   utter_redes_neuronales_artificiales_definicion:
   - text: "Son un modelo computacional vagamente inspirado en el comportamiento observado en su homólogo biológico"
