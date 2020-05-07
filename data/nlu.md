@@ -48,7 +48,7 @@
 - extremadamente triste
 - tan triste
 
-## intent:bot_challenge
+## intent:bot_asesor
 - eres un bot?
 - eres un humano?
 - estoy hablando con un bot?
@@ -61,6 +61,7 @@
 - definicion de redes neuronales artificiales
 - definicion de AAN
 - definicion Artificial neural networks
+- redes neuronales artificiales
 
 ## intent:redes_neuronales_artificiales_paradigmas
 - paradigmas de las redes neuronales artificiales
