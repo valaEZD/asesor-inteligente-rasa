@@ -34,10 +34,10 @@ responses:
   - text: "Soy un bot."
 
   utter_redes_neuronales_artificiales_definicion:
-  - text: "son un modelo computacional vagamente inspirado en el comportamiento observado en su homólogo biológico"
+  - text: "Son un modelo computacional vagamente inspirado en el comportamiento observado en su homólogo biológico"
 
   utter_aprendizaje_supervisado_definicion:
-  - text: "deseamos inferir el mapeo derivado de los datos; la función de coste está relacionado con la falta de 
+  - text: "Deseamos inferir el mapeo derivado de los datos; la función de coste está relacionado con la falta de 
             coincidencia entre nuestro mapeo y los datos, y contiene implícitamente el conocimiento previo sobre 
             el dominio del problema"
 
