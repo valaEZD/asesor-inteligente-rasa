@@ -55,3 +55,34 @@
 ## redes neuronales artificiales problemas
 * redes_neuronales_artificiales_problemas
   - utter_redes_neuronales_artificiales_problemas
+  
+## sistemas piensan humano
+* sistemas_piensan_humano
+  - utter_sistemas_piensan_humano
+
+## sistemas actuan humano
+* sistemas_actuan_humano
+  - utter_sistemas_actuan_humano
+
+## sistemas piensan racionalmente
+* sistemas_piensan_racionalmente
+  - utter_sistemas_piensan_racionalmente
+  
+## sistemas actuan racionalmente
+* sistemas_actuan_racionalmente
+  - utter_sistemas_actuan_racionalmente
+  
+## sistemas expertos
+* sistemas_expertos
+  - utter_sistemas_expertos
+## interactive_story_1
+* greet
+    - utter_greet
+* redes_neuronales_artificiales_definicion
+    - utter_redes_neuronales_artificiales_definicion
+* sistemas_expertos
+    - utter_sistemas_expertos
+* redes_neuronales_artificiales_paradigmas
+    - utter_redes_neuronales_artificiales_paradigmas
+* aprendizaje_por_refuerzo_definicion
+    - utter_aprendizaje_por_refuerzo_definicion
