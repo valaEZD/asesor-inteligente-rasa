@@ -68,6 +68,7 @@
 - paradigmas de RNA
 - paradigmas de AAN
 - paradigmas Artificial neural networks
+- paradigmas aan
 
 ## intent:redes_neuronales_artificiales_problemas
 - problemas que resuelve las redes neuronales artificiales
@@ -86,3 +87,23 @@
 ## intent:aprendizaje_por_refuerzo_definicion
 - que es el aprendizaje por refuerzo?
 - aprendizaje por refuerzo
+
+## intent:sistemas_piensan_humano
+- sistemas que piensan como humanos
+- que son los sistemas que piensan como humano?
+
+## intent:sistemas_actuan_humano
+- sistemas que actuan como humanos
+- que son los sistemas que actuan como humano?
+
+## intent:sistemas_piensan_racionalmente
+- sistemas que piensan racionalmente
+- que son los sistemas que piensan racionalmente?
+
+## intent:sistemas_actuan_racionalmente
+- sistemas que actuan racionalmente
+- que son los sistemas que actuan racionalmente?
+
+## intent:sistemas_expertos
+- sistemas expertos
+- que son los sistemas expertos?

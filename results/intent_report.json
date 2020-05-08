@@ -1,115 +1,141 @@
 {
-  "mood_great": {
-    "precision": 0.4,
-    "recall": 0.25,
-    "f1-score": 0.3076923076923077,
-    "support": 8,
-    "confused_with": {
-      "greet": 2,
-      "bot_challenge": 2
-    }
+  "sistemas_piensan_humano": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 2,
+    "confused_with": {}
+  },
+  "sistemas_actuan_humano": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 2,
+    "confused_with": {}
+  },
+  "sistemas_piensan_racionalmente": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 2,
+    "confused_with": {}
+  },
+  "bot_asesor": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 4,
+    "confused_with": {}
   },
   "goodbye": {
-    "precision": 0.0,
-    "recall": 0.0,
-    "f1-score": 0.0,
-    "support": 3,
-    "confused_with": {
-      "mood_unhappy": 1,
-      "deny": 1,
-      "bot_challenge": 1
-    }
-  },
-  "redes_neuronales_artificiales_paradigmas": {
-    "precision": 0.0,
-    "recall": 0.0,
-    "f1-score": 0.0,
-    "support": 4,
-    "confused_with": {
-      "mood_unhappy": 2,
-      "deny": 1,
-      "affirm": 1
-    }
-  },
-  "mood_unhappy": {
-    "precision": 0.4444444444444444,
-    "recall": 0.4,
-    "f1-score": 0.4210526315789474,
-    "support": 10,
-    "confused_with": {
-      "mood_great": 3,
-      "deny": 2
-    }
-  },
-  "redes_neuronales_artificiales_deficicion": {
-    "precision": 0.0,
-    "recall": 0.0,
-    "f1-score": 0.0,
-    "support": 6,
-    "confused_with": {
-      "deny": 4,
-      "affirm": 2
-    }
-  },
-  "bot_challenge": {
-    "precision": 0.3,
-    "recall": 0.75,
-    "f1-score": 0.4285714285714285,
-    "support": 4,
-    "confused_with": {
-      "deny": 1
-    }
-  },
-  "redes_neuronales_artificiales_problemas": {
-    "precision": 0.0,
-    "recall": 0.0,
-    "f1-score": 0.0,
-    "support": 4,
-    "confused_with": {
-      "goodbye": 1,
-      "deny": 1,
-      "bot_challenge": 1
-    }
-  },
-  "deny": {
-    "precision": 0.35294117647058826,
+    "precision": 1.0,
     "recall": 1.0,
-    "f1-score": 0.5217391304347826,
-    "support": 6,
+    "f1-score": 1.0,
+    "support": 3,
     "confused_with": {}
   },
   "greet": {
-    "precision": 0.5,
-    "recall": 0.3333333333333333,
-    "f1-score": 0.4,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
     "support": 6,
-    "confused_with": {
-      "bot_challenge": 2,
-      "affirm": 2
-    }
+    "confused_with": {}
+  },
+  "sistemas_expertos": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 2,
+    "confused_with": {}
+  },
+  "redes_neuronales_artificiales_paradigmas": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 4,
+    "confused_with": {}
+  },
+  "mood_unhappy": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 10,
+    "confused_with": {}
+  },
+  "deny": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 6,
+    "confused_with": {}
+  },
+  "aprendizaje_supervisado_definicion": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 2,
+    "confused_with": {}
+  },
+  "aprendizaje_no_supervizado_definicion": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 2,
+    "confused_with": {}
+  },
+  "sistemas_actuan_racionalmente": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 2,
+    "confused_with": {}
+  },
+  "redes_neuronales_artificiales_problemas": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 4,
+    "confused_with": {}
+  },
+  "aprendizaje_por_refuerzo_definicion": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 2,
+    "confused_with": {}
+  },
+  "mood_great": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 8,
+    "confused_with": {}
+  },
+  "redes_neuronales_artificiales_definicion": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 7,
+    "confused_with": {}
   },
   "affirm": {
-    "precision": 0.14285714285714285,
-    "recall": 0.2,
-    "f1-score": 0.16666666666666666,
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
     "support": 5,
-    "confused_with": {
-      "mood_unhappy": 1,
-      "goodbye": 1,
-      "deny": 1
-    }
+    "confused_with": {}
   },
-  "accuracy": 0.32142857142857145,
+  "accuracy": 1.0,
   "macro avg": {
-    "precision": 0.21402427637721755,
-    "recall": 0.29333333333333333,
-    "f1-score": 0.22457221649441328,
-    "support": 56
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 73
   },
   "weighted avg": {
-    "precision": 0.262078164599173,
-    "recall": 0.32142857142857145,
-    "f1-score": 0.2633949751349228,
-    "support": 56
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1-score": 1.0,
+    "support": 73
   }
 }

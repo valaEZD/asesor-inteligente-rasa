@@ -1,70 +1,101 @@
+actions:
+- utter_aprendizaje_no_supervizado_definicion
+- utter_aprendizaje_por_refuerzo_definicion
+- utter_aprendizaje_supervisado_definicion
+- utter_cheer_up
+- utter_did_that_help
+- utter_goodbye
+- utter_greet
+- utter_happy
+- utter_redes_neuronales_artificiales_definicion
+- utter_redes_neuronales_artificiales_paradigmas
+- utter_redes_neuronales_artificiales_problemas
+- utter_sistemas_actuan_humano
+- utter_sistemas_actuan_racionalmente
+- utter_sistemas_expertos
+- utter_sistemas_piensan_humano
+- utter_sistemas_piensan_racionalmente
+- utter_soy_asesor
 intents:
-  - greet
-  - goodbye
-  - affirm
-  - deny
-  - mood_great
-  - mood_unhappy
-  - bot_asesor
-  - aprendizaje_supervisado_definicion
-  - aprendizaje_no_supervizado_definicion
-  - aprendizaje_por_refuerzo_definicion
-  - redes_neuronales_artificiales_definicion
-  - redes_neuronales_artificiales_paradigmas
-  - redes_neuronales_artificiales_problemas
-
+- redes_neuronales_artificiales_definicion
+- aprendizaje_por_refuerzo_definicion
+- sistemas_expertos
+- greet
+- redes_neuronales_artificiales_paradigmas
+- goodbye
+- affirm
+- deny
+- mood_great
+- mood_unhappy
+- bot_asesor
+- aprendizaje_supervisado_definicion
+- aprendizaje_no_supervizado_definicion
+- redes_neuronales_artificiales_problemas
+- sistemas_piensan_humano
+- sistemas_actuan_humano
+- sistemas_piensan_racionalmente
+- sistemas_actuan_racionalmente
 responses:
-  utter_greet:
-  - text: "Hey! ¿Como estas?"
-
-  utter_cheer_up:
-  - text: "Esto te puede ayudar:"
-    image: "https://i.imgur.com/nGF1K8f.jpg"
-
-  utter_did_that_help:
-  - text: "¿Eso te ayudo?"
-
-  utter_happy:
-  - text: "Genial, sigue asi!"
-
-  utter_goodbye:
-  - text: "Adiós."
-
-  utter_soy_asesor:
-  - text: "Soy un asesor que te apoyará a guiarte para obtener las respuestas de tus dudas."
-
-  utter_redes_neuronales_artificiales_definicion:
-  - text: "Son un modelo computacional vagamente inspirado en el comportamiento observado en su homólogo biológico"
-
-  utter_aprendizaje_supervisado_definicion:
-  - text: "Deseamos inferir el mapeo derivado de los datos; la función de coste está relacionado con la falta de 
-            coincidencia entre nuestro mapeo y los datos, y contiene implícitamente el conocimiento previo sobre 
-            el dominio del problema"
-
   utter_aprendizaje_no_supervizado_definicion:
-  - text: "En el aprendizaje no supervisado, algunos datos x se da y la función de coste que se reduce al 
-            mínimo, que puede ser cualquier función de los datos x y la salida de la red, f."
-
+  - text: En el aprendizaje no supervisado, algunos datos x se da y la función de
+      coste que se reduce al mínimo, que puede ser cualquier función de los datos
+      x y la salida de la red, f.
   utter_aprendizaje_por_refuerzo_definicion:
-  - text: "El objetivo es descubrir una política para la selección de las acciones que minimiza una cierta 
-            medida de un costo a largo plazo"
-
+  - text: El objetivo es descubrir una política para la selección de las acciones
+      que minimiza una cierta medida de un costo a largo plazo
+  utter_aprendizaje_supervisado_definicion:
+  - text: Deseamos inferir el mapeo derivado de los datos; la función de coste está
+      relacionado con la falta de coincidencia entre nuestro mapeo y los datos, y
+      contiene implícitamente el conocimiento previo sobre el dominio del problema
+  utter_cheer_up:
+  - image: https://i.imgur.com/nGF1K8f.jpg
+    text: 'Esto te puede ayudar:'
+  utter_did_that_help:
+  - text: ¿Eso te ayudo?
+  utter_goodbye:
+  - text: Adiós.
+  utter_greet:
+  - text: Hey! ¿Como estas?
+  utter_happy:
+  - text: Genial, sigue asi!
+  utter_redes_neuronales_artificiales_definicion:
+  - text: Son un modelo computacional vagamente inspirado en el comportamiento observado
+      en su homólogo biológico
   utter_redes_neuronales_artificiales_paradigmas:
-  - text: "Hay tres grandes paradigmas de aprendizaje, cada uno correspondiente a una tarea de aprendizaje 
-            abstracto en particular. Estos son el aprendizaje supervisado ,el aprendizaje no supervisado y 
-            el aprendizaje por refuerzo."
-    buttons:
-    - title: "Aprendizaje supervisado"
-      payload: '/aprendizaje_supervisado_definicion'
-    - title: "Aprendizaje no supervisado"
-      payload: '/aprendizaje_no_supervizado_definicion'
-    - title: "Aprendizaje por refuerzo"
-      payload: '/aprendizaje_por_refuerzo_definicion'
-
+  - buttons:
+    - payload: /aprendizaje_supervisado_definicion
+      title: Aprendizaje supervisado
+    - payload: /aprendizaje_no_supervizado_definicion
+      title: Aprendizaje no supervisado
+    - payload: /aprendizaje_por_refuerzo_definicion
+      title: Aprendizaje por refuerzo
+    text: Hay tres grandes paradigmas de aprendizaje, cada uno correspondiente a una
+      tarea de aprendizaje abstracto en particular. Estos son el aprendizaje supervisado
+      ,el aprendizaje no supervisado y el aprendizaje por refuerzo.
   utter_redes_neuronales_artificiales_problemas:
-  - text: "Las redes neuronales se han utilizado para resolver una amplia variedad de tareas, como la 
-            visión por computador y el reconocimiento de voz"
-      
+  - text: Las redes neuronales se han utilizado para resolver una amplia variedad
+      de tareas, como la visión por computador y el reconocimiento de voz
+  utter_sistemas_actuan_humano:
+  - text: Se trata de computadoras que realizan tareas de forma similar a como lo
+      hacen las personas. Es el caso de los robots.
+  utter_sistemas_actuan_racionalmente:
+  - text: Idealmente, son aquellos que tratan de imitar de manera racional el comportamiento
+      humano, como los agentes inteligentes.
+  utter_sistemas_expertos:
+  - text: Es un sistema que emplea conocimiento humano capturado en un ordenador para
+      resolver problemas que normalmente resolverían humanos expertos. Los sistemas
+      bien diseñados imitan el proceso de razonamiento que los expertos utilizan para
+      resolver problemas específicos.
+  utter_sistemas_piensan_humano:
+  - text: Automatizan actividades como la toma de decisiones, la resolución de problemas
+      y el aprendizaje. Un ejemplo son las redes neuronales artificiales.
+  utter_sistemas_piensan_racionalmente:
+  - text: Sistemas que intentan emular el pensamiento lógico racional de los humanos,
+      es decir, se investiga cómo lograr que las máquinas puedan percibir, razonar
+      y actuar en consecuencia. Los sistemas expertos se engloban en este grupo.
+  utter_soy_asesor:
+  - text: Soy un asesor que te apoyará a guiarte para obtener las respuestas de tus
+      dudas.
 session_config:
-  session_expiration_time: 60
   carry_over_slots_to_new_session: true
+  session_expiration_time: 60
