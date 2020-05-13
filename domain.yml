@@ -16,6 +16,11 @@ actions:
 - utter_sistemas_piensan_humano
 - utter_sistemas_piensan_racionalmente
 - utter_soy_asesor
+- utter_regresion_polinomica
+- utter_random_forest
+- utter_forest_bagging
+- utter_k_nearest_neighbors
+- utter_svm
 intents:
 - redes_neuronales_artificiales_definicion
 - aprendizaje_por_refuerzo_definicion
@@ -35,6 +40,11 @@ intents:
 - sistemas_actuan_humano
 - sistemas_piensan_racionalmente
 - sistemas_actuan_racionalmente
+- regresion_polinomica
+- random_forest
+- forest_bagging
+- k_nearest_neighbor
+- svm
 responses:
   utter_aprendizaje_no_supervizado_definicion:
   - text: En el aprendizaje no supervisado, algunos datos x se da y la función de
@@ -96,6 +106,34 @@ responses:
   utter_soy_asesor:
   - text: Soy un asesor que te apoyará a guiarte para obtener las respuestas de tus
       dudas.
+  utter_regresion_polinomica:
+  - text: La regresión lineal múltiple permite generar un modelo lineal en el que el valor de la
+          variable dependiente o respuesta (Y) se determina a partir de un conjunto de variables
+          independientes llamadas predictores (X1, X2, X3…). Es una extensión de la regresión lineal
+          simple, por lo que es fundamental comprender esta última. Los modelos de regresión múltiple
+          pueden emplearse para predecir el valor de la variable dependiente o para evaluar la
+          influencia que tienen los predictores sobre ella.
+  utter_random_forest:
+  - text: El método de random forest es una modificación del proceso de bagging que consigue mejores
+          resultados gracias a que decorrelaciona los árboles generados en el proceso.
+          Supóngase un set de datos en el que hay un predictor muy influyente junto con otros moderadamente
+          influyentes. En este escenario, todos o casi todos los árboles creados en el proceso de bagging 
+          estarán dominados por el mismo predictor y serán muy parecidos entre ellos.
+          Como consecuencia de la alta correlación entre los árboles, el proceso de bagging apenas conseguirá
+          disminuir la varianza y, por lo tanto, tampoco mejorar el modelo.
+  utter_forest_bagging:
+  - text: Los métodos de random forest y bagging siguen el mismo algoritmo con la única diferencia de que,
+          en random forest, antes de cada división se seleccionan aleatoriamente [Math Processing Error] predictores.
+  utter_k_nearest_neighbors:
+  - text: K-Nearest Neighbor es uno de los algoritmos de machine learning más simples. Se fundamenta en la idea de
+          identificar observaciones en el conjunto de entrenamiento que se asemejen a la observación de test
+          (observaciones vecinas) y asignarle como valor predicho la clase predominante entre dichas observaciones.
+  utter_svm:
+  - text: Es un clasificador basado en un hiperplano es más robusto y tiene mayor capacidad predictiva al aplicarlo a
+          nuevas observaciones (menos problemas de overfitting). Esto es exactamente lo que consiguen los clasificadores
+          de vector soporte, también conocidos como soft margin classifiers o Support Vector Classifiers. Para lograrlo,
+          en lugar de buscar el margen de clasificación más ancho posible que consigue que las observaciones estén en el
+          lado correcto del margen; se permite que ciertas observaciones estén en el lado incorrecto del margen o incluso del hiperplano.
 session_config:
   carry_over_slots_to_new_session: true
   session_expiration_time: 60
