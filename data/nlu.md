@@ -107,3 +107,37 @@
 ## intent:sistemas_expertos
 - sistemas expertos
 - que son los sistemas expertos?
+
+## intent:regresion_polinomica
+- que es la regresión polinómica?
+- como funciona la regresión polinómica?
+- regresión polinómica
+
+## intent:random_forest
+- que es random forest?
+- como funciona random forest?
+- random forest
+
+## intent:forest_bagging
+- diferencia entre random forest y bagging
+- random forest vs bagging
+
+## intent:k_nearest_neighbors
+- knn
+- que es k-nearest neighbor?
+- k-nearest neighbor
+- k vecinos más cercanos
+- que es knn?
+- como funciona knn?
+- como funciona k vecinos más cercanos?
+- como funciona k-nearest neighbor?
+
+## intent:svm
+- svm
+- que es svm?
+- que es support vector machines?
+- como funciona la svm?
+- como funciona el support vector machines?
+- support vector machines
+- como funciona la maquina de vectores de soporte?
+- maquina de vectores de soporte 

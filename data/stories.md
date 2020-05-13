@@ -75,6 +75,27 @@
 ## sistemas expertos
 * sistemas_expertos
   - utter_sistemas_expertos
+  
+## regresion polinomica
+* regresion_polinomica
+  - utter_regresion_polinomica
+  
+## random forest
+* random_forest
+  - utter_random_forest
+
+## random forest bagging
+* forest_bagging
+  - utter_forest_bagging
+
+## k-nearest neighbors
+* k_nearest_neighbors
+  - utter_k_nearest_neighbors
+  
+## svm
+* svm
+  - utter_svm
+
 ## interactive_story_1
 * greet
     - utter_greet
