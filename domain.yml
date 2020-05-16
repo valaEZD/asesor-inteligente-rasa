@@ -18,9 +18,21 @@ actions:
 - utter_soy_asesor
 - utter_regresion_polinomica
 - utter_random_forest
+- utter_bagging
 - utter_forest_bagging
 - utter_k_nearest_neighbors
 - utter_svm
+- utter_optimizacion_definicion
+- uuter_optimizacion_caracteristicas
+- utter_optimizacion_problemas
+- utter_optimizacion_problema_viajante_comercio
+- utter_optimizacion_problema_asignacion
+- utter_optimizacion_problema_rutas
+- utter_optimizacion_problema_flujo_maximo
+- utter_optimizacion_problema_mochila
+- utter_optimizacion_problema_inventario
+- utter_funcion_objetivo
+
 intents:
 - redes_neuronales_artificiales_definicion
 - aprendizaje_por_refuerzo_definicion
@@ -42,9 +54,21 @@ intents:
 - sistemas_actuan_racionalmente
 - regresion_polinomica
 - random_forest
+- bagging
 - forest_bagging
 - k_nearest_neighbor
 - svm
+- optimizacion_definicion
+- optimizacion_caracteristicas
+- optimizacion_problemas
+- optimizacion_problema_viajante_comercio
+- optimizacion_problema_asignacion
+- optimizacion_problema_rutas
+- optimizacion_problema_flujo_maximo
+- optimizacion_problema_mochila
+- optimizacion_problema_inventario
+- funcion_objetivo
+
 responses:
   utter_aprendizaje_no_supervizado_definicion:
   - text: En el aprendizaje no supervisado, algunos datos x se da y la función de
@@ -74,11 +98,11 @@ responses:
   utter_redes_neuronales_artificiales_paradigmas:
   - buttons:
     - payload: /aprendizaje_supervisado_definicion
-      title: Aprendizaje supervisado
+      title: Supervisado
     - payload: /aprendizaje_no_supervizado_definicion
-      title: Aprendizaje no supervisado
+      title: No supervisado
     - payload: /aprendizaje_por_refuerzo_definicion
-      title: Aprendizaje por refuerzo
+      title: Por refuerzo
     text: Hay tres grandes paradigmas de aprendizaje, cada uno correspondiente a una
       tarea de aprendizaje abstracto en particular. Estos son el aprendizaje supervisado
       ,el aprendizaje no supervisado y el aprendizaje por refuerzo.
@@ -113,6 +137,11 @@ responses:
           simple, por lo que es fundamental comprender esta última. Los modelos de regresión múltiple
           pueden emplearse para predecir el valor de la variable dependiente o para evaluar la
           influencia que tienen los predictores sobre ella.
+  utter_bagging:
+  - text: La agregación de Bootstrap, también llamada bagging (de Bootstrap aggregating), es un meta-algoritmo 
+          de conjunto de aprendizaje automático diseñado para mejorar la estabilidad y precisión de los 
+          algoritmos de aprendizaje automático utilizados en la clasificación estadística y la regresión. 
+          También reduce la variación y ayuda a evitar el sobre entrenamiento.
   utter_random_forest:
   - text: El método de random forest es una modificación del proceso de bagging que consigue mejores
           resultados gracias a que decorrelaciona los árboles generados en el proceso.
@@ -134,6 +163,63 @@ responses:
           de vector soporte, también conocidos como soft margin classifiers o Support Vector Classifiers. Para lograrlo,
           en lugar de buscar el margen de clasificación más ancho posible que consigue que las observaciones estén en el
           lado correcto del margen; se permite que ciertas observaciones estén en el lado incorrecto del margen o incluso del hiperplano.
+
+  utter_optimizacion_definicion:
+  - text: Los problemas de optimización aparecen en multitud de ámbitos, desde la elección del camino más corto para 
+          ir al trabajo hasta el diseño óptimo de rutas de reparto de mercancías de una gran multinacional. 
+          Un problema de optimización viene dado por un par (F, c) donde F es un dominio de puntos factibles 
+          y c una función coste. El problema consiste en encontrar un punto factible x ∈ F tal que ∀y ∈ F 
+          verifique, c(x) ≤ c(y). Cada punto x verificando las condiciones anteriormente descritas se denomina 
+          óptimo global del problema.
+  utter_optimizacion_caracteristicas:
+  - text: Proceso algorítmico inicial muy rápido.
+          Elección de la mejor alternativa entre todas las alternativas posibles.
+  utter_optimizacion_problema_viajante_comercio:
+  - text: 'El problema del viajante de comercio, TSP (Travelling Salesman Problem): es uno de los problemas 
+          clásicos de optimización combinatoria. Recibió este nombre porque puede describirse en términos de 
+          un agente de ventas que debe visitar cierta cantidad de ciudades en un solo viaje. Si comienza desde 
+          su ciudad de residencia, el agente debe determinar qué ruta debe seguir para visitar cada ciudad 
+          exactamente una vez antes de regresar a su casa de manera que se minimice la longitud total del viaje.'
+  utter_optimizacion_problema_asignacion:
+  - text: 'Problemas asignación: Caso particular del problema de transporte de bienes desde unos orígenes a 
+          unos destinos donde los asignados son recursos destinados a la realización de tareas, los asignados 
+          pueden ser personas, máquinas, vehículos, plantas o periodos de tiempo. En estos problemas la oferta 
+          en cada origen es de valor 1 y la demanda en cada destino es también de valor 1.'
+  utter_optimizacion_problema_rutas:
+  - text: 'Problemas de rutas, Vehicle Routing Problems (VRP). Se trata de diseñar las rutas de una flota 
+          de transporte para dar servicio a unos clientes.'
+  utter_optimizacion_problema_flujo_maximo:
+  - text: 'Problemas de flujo máximo: Capacidad en redes. En una red en la que los arcos tienen limitada su 
+          capacidad, el problema del flujo máximo consiste en maximizar la cantidad de flujo que se puede 
+          pasar entre dos nodos prefijados de la red.'
+  utter_optimizacion_problema_mochila:
+  - text: 'El problema de la mochila. Supongamos que un excursionista debe decidir qué cosas incluir en su 
+          mochila. El problema consiste en decidir qué objetos incluir, teniendo en cuenta que la mochila 
+          soporta un peso máximo, de forma que maximice la utilidad que le proporcionarán los objetos elegidos.'
+  utter_optimizacion_problema_inventario:
+  - text: 'Problemas de inventario. Se trata de optimizar la gerencia sobre cuánto producir, cuánto demorar y 
+          cuánto almacenar en cada período de un horizonte de planificación dado.'
+  utter_optimizacion_problemas:
+  - buttons:
+    - payload: /optimizacion_problema_viajante_comercio
+      title: Viajante de comercio
+    - payload: /optimizacion_problema_asignacion
+      title: Asignación
+    - payload: /optimizacion_problema_rutas
+      title: Rutas
+    - payload: /optimizacion_problema_flujo_maximo
+      title: Flujo máximo
+    - payload: /optimizacion_problema_mochila
+      title: Mochila
+    - payload: /optimizacion_problema_inventario
+      title: Inventario
+    text: Viajante de comercio, asignación, de rutas, de flujo máximo, de la mochila y de inventario.
+  utter_funcion_objetivo:
+  - text: 'Es la medida cuantitativa del rendimiento del sistema a optimizar (maximizar o minimizar). Algunos 
+          ejemplos de las funciones objetivo son: la minimización de los costes de un sistema de producción 
+          agrícola, la maximización de los beneficios netos de la venta de ciertos productos, la minimización 
+          de los materiales utilizados en la fabricación de un producto, etc.'
+
 session_config:
   carry_over_slots_to_new_session: true
   session_expiration_time: 60
