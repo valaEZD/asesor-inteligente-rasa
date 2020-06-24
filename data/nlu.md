@@ -113,6 +113,12 @@
 - como funciona la regresión polinómica?
 - regresión polinómica
 
+## intent:bagging
+- Que es bagging?
+- Que es agregación de Bootstrap?
+. Que es Bootstrap aggregating?
+. Bagging
+
 ## intent:random_forest
 - que es random forest?
 - como funciona random forest?
@@ -141,3 +147,50 @@
 - support vector machines
 - como funciona la maquina de vectores de soporte?
 - maquina de vectores de soporte 
+
+## intent:optimizacion_definicion
+- Que es los problemas de optimización?
+- Problemas de optimización
+- Cuales son los problemas de optimización? 
+
+## intent:optimizacion_caracteristicas
+- Cuales son las características de la optimización?
+- Características de la Optimización
+
+## intent:optimizacion_problemas
+- Problemas de Optimización
+- Cuales son los problemas de optimización?
+- Problemas de optimización
+
+## intent:optimizacion_problema_viajante_comercio
+- Problema del viajante de comercio
+- Cual es el problema del viajante de comercio?
+- Cual es el problema del TSP?
+- Cual es el problema del Travelling Salesman Problem?
+
+## intent:optimizacion_problema_asignacion
+- Problemas asignación
+- Cual es el problema de asignación?
+
+## intent:optimizacion_problema_rutas
+- Problemas de rutas
+- Cual es el problema de rutas
+- Cual es el problema de Vehicle Routing Problems 
+- Cual es el problema de VRP
+
+## intent:optimizacion_problema_flujo_maximo
+- Problemas de flujo máximo
+- Cual es el problema de flujo máximo?
+- Cual es el problema de capacidad en redes?
+
+## intent:optimizacion_problema_mochila
+- problema de la mochila
+- Cual es el problema de la mochila?
+
+## intent:optimizacion_problema_inventario
+- Problemas de inventario
+- Cual es el problema de inventario?
+
+## intent:funcion_objetivo
+- Que es la función objetivo?
+- Función objetivo

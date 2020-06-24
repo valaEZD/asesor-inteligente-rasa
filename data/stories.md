@@ -79,7 +79,11 @@
 ## regresion polinomica
 * regresion_polinomica
   - utter_regresion_polinomica
-  
+
+## bagging
+* bagging
+  - utter_bagging
+
 ## random forest
 * random_forest
   - utter_random_forest
@@ -107,3 +111,51 @@
     - utter_redes_neuronales_artificiales_paradigmas
 * aprendizaje_por_refuerzo_definicion
     - utter_aprendizaje_por_refuerzo_definicion
+
+## problemas de optimizacion
+* optimizacion_definicion
+  - utter_optimizacion_definicion
+* optimizacion_caracteristicas
+  - utter_optimizacion_caracteristicas
+* optimizacion_problemas
+  - utter_optimizacion_problemas
+
+## problemas de optimizacion viajero
+* optimizacion_problemas
+  - utter_optimizacion_problemas
+* optimizacion_problema_viajante_comercio
+  - utter_optimizacion_problema_viajante_comercio
+
+## problemas de optimizacion asignacion
+* optimizacion_problemas
+  - utter_optimizacion_problemas
+* optimizacion_problema_asignacion
+  - utter_optimizacion_problema_asignacion
+
+## problemas de optimizacion rutas
+* optimizacion_problemas
+  - utter_optimizacion_problemas
+* optimizacion_problema_rutas
+  - utter_optimizacion_problema_rutas
+
+## problemas de optimizacion flujo maximo
+* optimizacion_problemas
+  - utter_optimizacion_problemas
+* optimizacion_problema_flujo_maximo
+  - utter_optimizacion_problema_flujo_maximo
+
+## problemas de optimizacion mochila
+* optimizacion_problemas
+  - utter_optimizacion_problemas
+* optimizacion_problema_mochila
+  - utter_optimizacion_problema_mochila
+
+## problemas de optimizacion inventario
+* optimizacion_problemas
+  - utter_optimizacion_problemas
+* optimizacion_problema_inventario
+  - utter_optimizacion_problema_inventario
+
+## funcion objetivo
+* funcion_objetivo
+  - utter_funcion_objetivo
