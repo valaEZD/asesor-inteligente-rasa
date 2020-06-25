@@ -32,6 +32,10 @@ actions:
 - utter_optimizacion_problema_mochila
 - utter_optimizacion_problema_inventario
 - utter_funcion_objetivo
+- utter_perceptron
+- utter_adaline
+- utter_mlp
+- utter_machine_learning
 
 intents:
 - redes_neuronales_artificiales_definicion
@@ -68,6 +72,10 @@ intents:
 - optimizacion_problema_mochila
 - optimizacion_problema_inventario
 - funcion_objetivo
+- perceptron
+- adaline
+- mlp
+- machine_learning
 
 responses:
   utter_aprendizaje_no_supervizado_definicion:
@@ -219,7 +227,26 @@ responses:
           ejemplos de las funciones objetivo son: la minimización de los costes de un sistema de producción 
           agrícola, la maximización de los beneficios netos de la venta de ciertos productos, la minimización 
           de los materiales utilizados en la fabricación de un producto, etc.'
-
+  utter_perceptron:
+  - text: 'El perceptrón simple es un tipo de red neuronal artificial desarrollado por Frank Rosenblatt en 1959.
+          La razón de su auge en los años 60’s es que tiene capacidad de aprendizaje y reconocimiento de patrones linealmente separables.
+          El perceptrón puede ser considerado como una neurona artificia, unidad de cálculo que intenta modelar el comportamiento de una neurona natural,
+          como las que constituyen el cerebro humano. Es un algoritmo capaz de generar un criterio para hacer la selección de un grupo,
+          entre un grupo de elementos más grandes.'
+  utter_adaline:
+  - text: 'La Red Adaline fue desarrollada en el 1960 por Bernard Widrow y su estudiante Marcian Hoff de la universidad de Stanford.
+          ADALINE proviene de Adaptive Lineal Element (Elemento Lineal Adaptativo), pero antes de que se le diera este nombre esta red sufrió
+          un cambio ya  que primeramente se llamaba Adaptive Lineal Neuron (Neurona Linear Adaptiva), dicho cambio se dio por que la Red Adaline
+          es un dispositivo que consta de un único elemento de procesamiento, como tal no es técnicamente considerada una red neuronal.
+          Adaline fue desarrollada para el reconocimiento de patrones binarios, por ejemplo predecir el siguiente bit en una línea telefónica.'
+  utter_mlp:
+  - text: 'Este tipo de red artificial nació de la unión de varios perceptrones simples, estas redes neuronales multicapa se pueden clasificar
+          de manera que que se conectan sus capas, este tipo de neuronas dio paso a la resolución de problemas mas complejos como los no lineales.
+          Esta idea fue propuesta por los cientificos Rumelhart, Hinton y Williams en el año 1986 cuya hipotesis era la de retro propagar los errores
+          medidos en las señales de salida de la red neuronal artificial hacia las neuronas que se encuentran en la capa oculta.'
+  utter_machine_learning:
+  - text: 'Es una derivación de inteligencia artificial que crea sistemas que aprenden de manera automatizada, es decir, identificar patrones complejos
+          en millones de datos, predecir comportamientos todo mediante un algoritmo y que además de todo son capaces de mejorarse de manera independiente con el tiempo.'
 session_config:
   carry_over_slots_to_new_session: true
   session_expiration_time: 60

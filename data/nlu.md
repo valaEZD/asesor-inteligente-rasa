@@ -194,3 +194,23 @@
 ## intent:funcion_objetivo
 - Que es la función objetivo?
 - Función objetivo
+
+## intent:perceptron
+- Que es el perceptron?
+- Perceptron
+- Que es perceptron?
+
+## intent:adaline
+- Que es adaline?
+- Adaline
+
+## intent:mlp
+- Que es MLP?
+- MLP
+- Que es el perceptron multicapa?
+- Perceptron Multicapa
+
+## intent:machine_learning
+- Que es machine learning?
+- Machine Learning
+
