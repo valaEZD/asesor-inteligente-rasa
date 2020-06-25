@@ -159,3 +159,19 @@
 ## funcion objetivo
 * funcion_objetivo
   - utter_funcion_objetivo
+  
+## perceptron
+* perceptron
+ - utter_perceptron
+ 
+## adaline
+* adaline
+ - utter_adaline
+ 
+## mlp
+* mlp
+ - utter_mlp
+ 
+## machine learning
+* machine_learning
+ - utter_machine_learning
