@@ -36,6 +36,7 @@ actions:
 - utter_adaline
 - utter_mlp
 - utter_machine_learning
+- utter_default 
 
 intents:
 - redes_neuronales_artificiales_definicion
@@ -247,6 +248,8 @@ responses:
   utter_machine_learning:
   - text: 'Es una derivación de inteligencia artificial que crea sistemas que aprenden de manera automatizada, es decir, identificar patrones complejos
           en millones de datos, predecir comportamientos todo mediante un algoritmo y que además de todo son capaces de mejorarse de manera independiente con el tiempo.'
+  utter_default:
+  - text: 'Lo siento no entiendo :('
 session_config:
   carry_over_slots_to_new_session: true
   session_expiration_time: 60
