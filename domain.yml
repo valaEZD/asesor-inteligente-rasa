@@ -36,7 +36,18 @@ actions:
 - utter_adaline
 - utter_mlp
 - utter_machine_learning
-- utter_default 
+- utter_default
+- utter_neurona_biologica
+- utter_neurona_comunicacion
+- utter_neurona_cuerpo
+- utter_neurona_dendritas
+- utter_neurona_axon
+- utter_neurona_nucleo
+- utter_neurona_vaina
+- utter_neurona_nissl
+- utter_neurona_ranvier
+- utter_neurona_sinapticos
+- utter_neurona_cono
 
 intents:
 - redes_neuronales_artificiales_definicion
@@ -77,6 +88,17 @@ intents:
 - adaline
 - mlp
 - machine_learning
+- neurona_biologica
+- neurona_comunicacion
+- neurona_cuerpo
+- neurona_dendritas
+- neurona_axon
+- neurona_nucleo
+- neurona_vaina
+- neurona_nissl
+- neurona_ranvier
+- neurona_sinapticos
+- neurona_cono
 
 responses:
   utter_aprendizaje_no_supervizado_definicion:
@@ -250,6 +272,55 @@ responses:
           en millones de datos, predecir comportamientos todo mediante un algoritmo y que además de todo son capaces de mejorarse de manera independiente con el tiempo.'
   utter_default:
   - text: 'Lo siento no entiendo :('
+  utter_neurona_biologica:
+  - text: 'La neurona es un tipo de célula de nuestro cuerpo increíblemente especializada a nivel morfológico y fisiológico en cumplir una función indispensable: transmitir información
+          a lo largo y ancho del organismo. Dicha transmisión de información de da mediante impulsos eléctricos que viajan a través de las neuronas, es indispensable para todos los procesos
+          que se nos ocurran. Movernos, ver, oír, saborear la comida, experimentar dolor, hablar, escuchar y, en definitiva, cualquier acción que implique una comunicacion con el medio exterior
+          o con nosotros mismos.'
+  utter_neurona_comunicacion:
+  - text: 'Las neuronas se comunican entre sí de una forma similar a la que ocurre con las llamadas de telefono. Y es que esta doble función de percibir
+          y responder señales es posible gracias a que las neuronas con capaces de realizar un proceso que recibe el nombre de sinapsis, la cual viene
+          mediada por unas moléculas que se conocen como neurotransmisores.'
+  utter_neurona_cuerpo:
+  - text: 'El cuerpo o soma de la neurona es el “centro de mandos”, es decir, donde ocurren todos los procesos metabólicos de la neurona. Este cuerpo,
+          que es la región más ancha y de morfología más o menos ovalada es donde se encuentra tanto el núcleo como el citoplasma de la neurona.
+          Por lo tanto, es aquí donde hay todo el material genético de la neurona y también donde se sintetizan todas las moléculas necesarias tanto
+          para permitir su propia supervivencia como para garantizar que las señales eléctricas se transmiten adecuadamente.'
+  utter_neurona_dendritas:
+  - text: 'Las dendritas son prolongaciones que nacen del cuerpo o soma y que conforman una especie de ramas que recubren todo el centro de la neurona.
+          Su función es la de captar los neurotransmisores producidos por la neurona más cercana y enviar la información química al cuerpo de la neurona para hacer
+          que esta se active eléctricamente. Por lo tanto, las dendritas son las prolongaciones de la neurona que captan la información en forma de señales químicas
+          y avisan al cuerpo de que la anterior neurona de la red está intentando enviar un impulso, ya sea desde los órganos sensoriales al cerebro o viceversa.'
+  utter_neurona_axon:
+    - text: 'El axón es una única prolongación que nace del cuerpo o soma de la neurona, en la parte contraria a las dendritas, que se encarga de, una vez ya se han
+          recibido los neurotransmisores y el cuerpo se ha activado eléctricamente, conducir el impulso eléctrico hasta los botones sinápticos, donde se liberan los
+          neurotransmisores para informar a la siguiente neurona. Por lo tanto, el axón es un tubo único que nace del cuerpo de la neurona y que, a diferencia de
+          las dendritas, no capta información, sino que ya va encaminado a transmitirla.'
+  utter_neurona_nucleo:
+  - text: 'Como cualquier célula, las neuronas tienen un núcleo. Este se encuentra en el interior del soma y es una estructura delimitada del resto del citoplasma
+          en cuyo interior está protegido el ADN, es decir, todos los genes de la neurona. Dentro de él se controla la expresión del material genético y, por lo tanto,
+          se regula todo lo que sucede en la neurona.'
+  utter_neurona_vaina:
+  - text: 'La mielina es una sustancia compuesta de proteínas y grasas que rodea el axón de las neuronas y que es imprescindible para permitir que el impulso eléctrico
+          viaje a través de este a la velocidad correcta. Si hay problemas en la formación de esta vaina de mielina, como por ejemplo sucede con la esclerosis múltiple,
+          los impulsos y respuestas se vuelven cada vez más lentos.'
+  utter_neurona_nissl:
+  - text: 'La sustancia de Nissl, también conocida como cuerpos de Nissl, es el conjunto de gránulos presentes en el citoplasma de las neuronas, tanto en el cuerpo
+          como las dendritas, pero no en el axón. Su principal función es la de ser una “fábrica” de proteínas, las cuales, en el caso de las neuronas, deben ser muy
+          especiales para permitir la correcta transmisión de impulsos eléctricos.'
+  utter_neurona_ranvier:
+  - text: 'La vaina de mielina de las neuronas no es contínua a lo largo de todo el axón. De hecho, la mielina forma paquetes que están ligeramente separados entre ellos.
+          Y esta separación, que es de menos de un micrómetro de longitud, es lo que recibe el nombre de nódulo de Ranvier. Por lo tanto, los nódulos de Ranvier son
+          pequeñas regiones del axón que no están rodeadas por mielina y que lo exponen al espacio extracelular. Son imprescindibles para que la transmisión del impulso
+          eléctrico suceda adecuadamente ya que a través suyo entran electrolitos de sodio y potasio, vitales para que la señal eléctrica viaje correctamente
+          (y a más velocidad) por el axón.'
+  utter_neurona_sinapticos:
+  - text: 'Los botones sinápticos son las ramificaciones que presenta el axón en su parte terminal. Por lo tanto, estos botones sinápticos son similares a las dendritas,
+          aunque en este caso tienen la función de, una vez el impulso eléctrico ha atravesado el axón, liberar al medio externo los neurotransmisores, que serán captados
+          por las dendritas de la siguiente neurona de la “autopista”.'
+  utter_neurona_cono:
+  - text: 'El cono axónico no es una estructura diferenciable a nivel funcional, pero es importante ya que es la región del cuerpo de la neurona que se estrecha para dar
+          lugar al axón.'
 session_config:
   carry_over_slots_to_new_session: true
   session_expiration_time: 60

@@ -4,7 +4,6 @@
 - buenos dias
 - buenas tardes
 - hey ¿como estas?
-- que onda prro
 
 ## intent:goodbye
 - adios
@@ -23,8 +22,6 @@
 - nunca
 - claro que no
 - no me gusta eso
-- no way
-- que no prro
 
 ## intent:mood_great
 - perfecto
@@ -213,4 +210,64 @@
 ## intent:machine_learning
 - Que es machine learning?
 - Machine Learning
+- Aprendizaje automatico
+- Que es el aprendizaje automatico?
+- En que consiste el aprendizaje automatico?
 
+## intent:neurona_biologica
+- Que es la neurona?
+- Que es la neurona biologica?
+- Que es una neurona biologica?
+- Neurona biologica
+
+## intent:neurona_comunicacion
+- Como es la comunicacion entre las neuronas?
+- Como se comunican las neuronas?
+- Comunicacion de neuronas
+
+# intent:neurona_cuerpo
+- Que es el cuerpo de una neurona?
+- Que es el cuerpo de la neurona?
+- Cuerpo de neurona
+- Soma de la neruona
+- Que es el soma?
+
+## intent:neurona_dendritas
+- Que son las dendritas?
+- Dendritas
+
+## intent:neurona_axon
+- Que es el axón?
+- Que hace el axon?
+- Para que es el axon?
+- Axon
+
+## intent:neurona_nucleo
+- Que es el nucleo de la neurona?
+- Que hace el nucleo de la neurona?
+- Nucleo de la neurona
+
+## intent:neurona_vaina
+- Que es la vaina de mielina?
+- Para que sirve la vaina de mielina?
+- Vaina de mielina
+
+## intent:neurona_nissl
+- Que es la sustancia de nissl?
+- Para que sirve la sustancia de nissl?
+- Sustancia de nissl
+
+## intent:neurona_ranvier
+- Para que son los nodulos de ranvier?
+- Que son los nodulos de ranvier?
+- Nodulos de ranvier
+
+## intent:neurona_sinapticos
+- Que son los botones sinapticos?
+- Para que sirven los botones sinapticos?
+- Botones sinapticos
+
+## intent:neurona_cono
+- Que es el cono axonico?
+- Para que es el cono axonico?
+- Cono axonico

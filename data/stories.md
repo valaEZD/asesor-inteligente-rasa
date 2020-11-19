@@ -175,3 +175,47 @@
 ## machine learning
 * machine_learning
  - utter_machine_learning
+ 
+## neurona biologica
+* neurona_biologica
+ - utter_neurona_biologica
+ 
+## neuronas comunicacion
+* neurona_comunicacion
+ - utter_neurona_comunicacion
+ 
+## neurona cuerpo
+* neurona_cuerpo
+ - utter_neurona_cuerpo
+ 
+## neurona dentritras
+* neurona_dendritas
+ - utter_neurona_dendritas
+ 
+## neurona axon
+* neurona_axon
+ - utter_neurona_axon
+ 
+## neurona nucleo
+* neurona_nucleo
+ - utter_neurona_nucleo
+ 
+## neurona vaina
+* neurona_vaina
+ - utter_neurona_vaina
+ 
+## neurona nissl
+* neurona_nissl
+ - utter_neurona_nissl
+ 
+## neurona ranvier
+* neurona_ranvier
+ - utter_neurona_ranvier
+ 
+## neurona sinapticos
+* neurona_sinapticos
+ - utter_neurona_sinapticos
+ 
+## neurona cono
+* neurona_cono
+ - utter_neurona_cono
