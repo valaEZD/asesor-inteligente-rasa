@@ -271,3 +271,29 @@
 - Que es el cono axonico?
 - Para que es el cono axonico?
 - Cono axonico
+
+## intent:agregar_pregunta
+- agregar pregunta
+- se puede agregar pregutas?
+- existen mas preguntas
+
+## intent:agregar_pregunta_base_datos
+- mi pregunta que quiero agregar es
+- mi pregunta es
+
+## intent:ver_preguntas
+- ver preguntas
+- ver las preguntas agregadas
+
+## intent:seleccion_pregunta
+- mi pregunta es
+- la pregunta es
+- la pregunta que quiero agregar
+- mi pregunta es que 
+- mi pregunta es que es la
+- mi pregunta es que es el
+- mi pregunta es que es los
+- mi pregunta es que es las
+- que es
+- cual es
+- como es

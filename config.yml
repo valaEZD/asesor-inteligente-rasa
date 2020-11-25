@@ -1,20 +1,62 @@
 # Configuration for Rasa NLU.
 # https://rasa.com/docs/rasa/nlu/components/
 language: es
-pipeline: supervised_embeddings
-  # - name: WhitespaceTokenizer
-  # - name: RegexFeaturizer
-  # - name: LexicalSyntacticFeaturizer
-  # - name: CountVectorsFeaturizer
-  # - name: CountVectorsFeaturizer
-  #   analyzer: "char_wb"
-  #   min_ngram: 1
-  #   max_ngram: 4
-  # - name: DIETClassifier
-  #   epochs: 100
-  # - name: EntitySynonymMapper
-  # - name: ResponseSelector
-  #   epochs: 100
+# pipeline: supervised_embeddings
+# pipeline:
+#   - name: WhitespaceTokenizer
+#   - name: RegexFeaturizer
+#   # - name: LexicalSyntacticFeaturizer
+#   - name: CountVectorsFeaturizer
+#   - name: CountVectorsFeaturizer
+#     analyzer: "char_wb"
+#     min_ngram: 1
+#     max_ngram: 4
+#   # - name: DIETClassifier
+#   #   epochs: 100
+#   - name: EntitySynonymMapper
+#   - name: ResponseSelector
+#     epochs: 100
+pipeline:
+- name: "SpacyNLP"
+  # Modelo de lenguaje
+  model: "es_core_news_md"
+  # Para diferenciar de las mayusculas de las minusculas se cambia a 'True'
+  case_sensitive: False
+- name: "SpacyTokenizer"
+  # Flag to check whether to split intents
+  "intent_tokenization_flag": False
+  # Symbol on which intent should be split
+  "intent_split_symbol": "_"
+- name: "SpacyFeaturizer"
+  # Specify what pooling operation should be used to calculate the vector of
+  # the __CLS__ token. Available options: 'mean' and 'max'.
+  "pooling": "max"
+- name: "SpacyEntityExtractor"
+- name: EntitySynonymMapper
+- name: CountVectorsFeaturizer
+- name: CountVectorsFeaturizer
+  analyzer: "char_wb"
+  min_ngram: 1
+  max_ngram: 4
+- name: "SklearnIntentClassifier"
+  # Specifies the list of regularization values to
+  # cross-validate over for C-SVM.
+  # This is used with the ``kernel`` hyperparameter in GridSearchCV.
+  C: [1, 2, 5, 10]
+  # Specifies the kernel to use with C-SVM.
+  # This is used with the ``C`` hyperparameter in GridSearchCV.
+  # kernels: ["rbf", "linear", "poly"]
+  kernels: ["linear"]
+  # Gamma parameter of the C-SVM.
+  # "gamma": [0.1, 0.5, 1, 1.5, 2]
+  "gamma": [0.1]
+  # We try to find a good number of cross folds to use during
+  # intent training, this specifies the max number of folds.
+  "max_cross_validation_folds": 5
+  # Scoring function used for evaluating the hyper parameters.
+  # This can be a name or a function.
+  "scoring_function": "f1_weighted"
+
 
 # Configuration for Rasa Core.
 # https://rasa.com/docs/rasa/core/policies/

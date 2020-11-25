@@ -219,3 +219,23 @@
 ## neurona cono
 * neurona_cono
  - utter_neurona_cono
+
+## ver preguntas
+* ver_preguntas
+  - action_ver_preguntas
+
+## agregar pregunta verdadero
+* agregar_pregunta
+  - action_agregar_pregunta
+  - utter_preguntar_si_quiere_agregar
+* affirm
+  - utter_cual_pregunta
+* seleccion_pregunta
+  - action_agregar_pregunta_base_datos
+
+## agregar pregunta falso
+* agregar_pregunta
+  - action_agregar_pregunta
+  - utter_preguntar_si_quiere_agregar
+* deny
+  - utter_no_agregar_pregunta

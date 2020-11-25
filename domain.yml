@@ -48,6 +48,9 @@ actions:
 - utter_neurona_ranvier
 - utter_neurona_sinapticos
 - utter_neurona_cono
+- action_agregar_pregunta
+- action_ver_preguntas
+- action_agregar_pregunta_base_datos
 
 intents:
 - redes_neuronales_artificiales_definicion
@@ -72,7 +75,7 @@ intents:
 - random_forest
 - bagging
 - forest_bagging
-- k_nearest_neighbor
+- k_nearest_neighbors
 - svm
 - optimizacion_definicion
 - optimizacion_caracteristicas
@@ -99,6 +102,11 @@ intents:
 - neurona_ranvier
 - neurona_sinapticos
 - neurona_cono
+- agregar_pregunta
+- ver_preguntas
+- no_agregar_pregunta
+- agregar_pregunta_base_datos
+- seleccion_pregunta
 
 responses:
   utter_aprendizaje_no_supervizado_definicion:
@@ -321,6 +329,12 @@ responses:
   utter_neurona_cono:
   - text: 'El cono axónico no es una estructura diferenciable a nivel funcional, pero es importante ya que es la región del cuerpo de la neurona que se estrecha para dar
           lugar al axón.'
+  utter_preguntar_si_quiere_agregar:
+  - text: "No encontraste una respusta ¿Quieres agregar una pregunta?"
+  utter_no_agregar_pregunta:
+  - text: "Bien, si deseas agregar alguna aqui te espero :D"
+  utter_cual_pregunta:
+  - text: 'Cual es tu pregunta? Empiza con "Mi pregunta"'
 session_config:
   carry_over_slots_to_new_session: true
   session_expiration_time: 60
